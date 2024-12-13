@@ -1,0 +1,155 @@
+{"country": "United Arab Emirates", "capital": "Abu Dhabi", "location": [54.37, 24.47]}
+{"country": "Ethiopia", "capital": "Addis Ababa", "location": [38.75, 9.15]}
+{"country": "Netherlands", "capital": "Amsterdam", "location": [4.89, 52.37]}
+{"country": "Brunei", "capital": "Bandar Seri Begawan", "location": [114.94, 4.89]}
+{"country": "Switzerland", "capital": "Bern", "location": [7.45, 46.95]}
+{"country": "South Africa", "capital": "Bloemfontein", "location": [26.12, -29.12]}
+{"country": "Argentina", "capital": "Buenos Aires", "location": [-58.42, -34.61]}
+{"country": "Sri Lanka", "capital": "Colombo", "location": [79.96, 6.93]}
+{"country": "Benin", "capital": "Cotonou", "location": [2.43, 6.36]}
+{"country": "Sierra Leone", "capital": "Freetown", "location": [-13.23, 8.47]}
+{"country": "Burundi", "capital": "Bujumbura", "location": [29.37, -3.38]}
+{"country": "Guatemala", "capital": "Guatemala City", "location": [-90.51, 14.63]}
+{"country": "South Sudan", "capital": "Juba City", "location": [31.58, 4.85]}
+{"country": "Democratic Republic of the Congo", "capital": "Kinshasa", "location": [15.27, -4.32]}
+{"country": "Malaysia", "capital": "Kuala Lumpur", "location": [101.70, 3.15]}
+{"country": "Kuwait", "capital": "Kuwait City", "location": [47.98, 29.38]}
+{"country": "Bolivia", "capital": "La Paz", "location": [-68.12, -16.50]}
+{"country": "United Kingdom", "capital": "London", "location": [-0.12, 51.50]}
+{"country": "Angola", "capital": "Luanda", "location": [13.24, -8.81]}
+{"country": "Mexico", "capital": "Mexico City", "location": [-99.13, 19.43]}
+{"country": "India", "capital": "New Delhi", "location": [77.23, 28.61]}
+{"country": "Burkina Faso", "capital": "Ouagadougou", "location": [-1.51, 12.37]}
+{"country": "Panama", "capital": "Panama City", "location": [-79.52, 8.98]}
+{"country": "Cambodia", "capital": "Phnom Penh", "location": [104.91, 11.56]}
+{"country": "Mauritius", "capital": "Port Louis", "location": [57.49, -20.16]}
+{"country": "Papua New Guinea", "capital": "Port Moresby", "location": [147.18, -9.44]}
+{"country": "Trinidad and Tobago", "capital": "Port of Spain", "location": [-61.52, 10.65]}
+{"country": "Cape Verde", "capital": "Praia", "location": [-23.51, 14.93]}
+{"country": "Saudi Arabia", "capital": "Riyadh", "location": [46.72, 24.71]}
+{"country": "Costa Rica", "capital": "San José", "location": [-84.08, 9.93]}
+{"country": "El Salvador", "capital": "San Salvador", "location": [-89.19, 13.70]}
+{"country": "Dominican Republic", "capital": "Santo Domingo", "location": [-69.91, 18.48]}
+{"country": "Bosnia and Herzegovina", "capital": "City of Sarajevo", "location": [18.42, 43.86]}
+{"country": "South Korea", "capital": "Seoul", "location": [126.97, 37.57]}
+{"country": "North Macedonia", "capital": "Skopje", "location": [21.42, 42.00]}
+{"country": "Jersey", "capital": "St. Helier", "location": [-2.12, 49.19]}
+{"country": "United States", "capital": "Washington", "location": [-77.04, 38.91]}
+{"country": "New Zealand", "capital": "Wellington", "location": [174.78, -41.29]}
+{"country": "Nigeria", "capital": "Abuja", "location": [7.49, 9.06]}
+{"country": "Ghana", "capital": "Accra", "location": [-0.21, 5.56]}
+{"country": "Yemen", "capital": "Sana'a City", "location": [44.21, 15.37]}
+{"country": "Algeria", "capital": "Algiers", "location": [3.06, 36.74]}
+{"country": "Jordan", "capital": "Amman", "location": [35.93, 31.95]}
+{"country": "Turkey", "capital": "Ankara", "location": [32.85, 39.92]}
+{"country": "Madagascar", "capital": "Antananarivo", "location": [47.53, -18.88]}
+{"country": "Samoa", "capital": "Apia", "location": [-172.10, -13.83]}
+{"country": "Eritrea", "capital": "Asmara", "location": [38.92, 15.34]}
+{"country": "Kazakhstan", "capital": "Nur-Sultan", "location": [71.43, 51.17]}
+{"country": "Paraguay", "capital": "Asunción", "location": [-57.63, -25.26]}
+{"country": "Greece", "capital": "Athens", "location": [23.73, 37.98]}
+{"country": "Iraq", "capital": "Baghdad", "location": [44.36, 33.32]}
+{"country": "Azerbaijan", "capital": "Baku", "location": [49.89, 40.38]}
+{"country": "Thailand", "capital": "Bangkok", "location": [100.52, 13.75]}
+{"country": "China", "capital": "Beijing", "location": [116.41, 39.90]}
+{"country": "Lebanon", "capital": "Beirut", "location": [35.50, 33.89]}
+{"country": "Serbia", "capital": "Belgrade", "location": [20.47, 44.82]}
+{"country": "Germany", "capital": "Berlin", "location": [13.41, 52.52]}
+{"country": "Kyrgyzstan", "capital": "City of Osh", "location": [72.79, 40.52]}
+{"country": "Guinea-Bissau", "capital": "Bissau", "location": [-15.58, 11.85]}
+{"country": "Colombia", "capital": "Bogota", "location": [-74.08, 4.61]}
+{"country": "Brazil", "capital": "Brasília", "location": [-47.92, -15.79]}
+{"country": "Slovakia", "capital": "Bratislava", "location": [17.11, 48.15]}
+{"country": "Barbados", "capital": "Bridgetown", "location": [-59.61, 13.10]}
+{"country": "Belgium", "capital": "Brussels", "location": [4.35, 50.85]}
+{"country": "Romania", "capital": "Bucharest", "location": [26.10, 44.43]}
+{"country": "Hungary", "capital": "Budapest", "location": [19.04, 47.50]}
+{"country": "Egypt", "capital": "Cairo", "location": [31.24, 30.04]}
+{"country": "Australia", "capital": "Canberra", "location": [149.13, -35.30]}
+{"country": "Venezuela", "capital": "Caracas", "location": [-66.88, 10.48]}
+{"country": "Moldova", "capital": "Chișinau", "location": [28.86, 47.02]}
+{"country": "Denmark", "capital": "Copenhagen", "location": [12.57, 55.67]}
+{"country": "Senegal", "capital": "Dakar", "location": [-17.44, 14.73]}
+{"country": "Syria", "capital": "Damascus", "location": [36.31, 33.51]}
+{"country": "Bangladesh", "capital": "Dhaka", "location": [90.41, 23.81]}
+{"country": "Tanzania", "capital": "Dodoma", "location": [35.74, -6.17]}
+{"country": "Ireland", "capital": "Dublin", "location": [-6.26, 53.34]}
+{"country": "Tajikistan", "capital": "Dushanbe", "location": [68.79, 38.56]}
+{"country": "Botswana", "capital": "Gaborone", "location": [25.92, -24.65]}
+{"country": "Guyana", "capital": "Georgetown", "location": [-58.16, 6.80]}
+{"country": "Vietnam", "capital": "Hanoi", "location": [105.85, 21.02]}
+{"country": "Zimbabwe", "capital": "Harare", "location": [31.05, -17.83]}
+{"country": "Cuba", "capital": "Havana", "location": [-82.38, 23.12]}
+{"country": "Finland", "capital": "Helsinki", "location": [24.94, 60.17]}
+{"country": "Pakistan", "capital": "Islamabad", "location": [73.05, 33.71]}
+{"country": "Indonesia", "capital": "Jakarta", "location": [106.83, -6.21]}
+{"country": "Israel", "capital": "Jerusalem", "location": [35.21, 31.78]}
+{"country": "Afghanistan", "capital": "Kabul", "location": [69.15, 34.53]}
+{"country": "Uganda", "capital": "Kampala", "location": [32.59, 0.32]}
+{"country": "Nepal", "capital": "Kathmandu", "location": [85.32, 27.71]}
+{"country": "Sudan", "capital": "Khartoum", "location": [32.54, 15.55]}
+{"country": "Rwanda", "capital": "Kigali", "location": [30.06, -1.94]}
+{"country": "Jamaica", "capital": "Kingston", "location": [-76.80, 17.98]}
+{"country": "Ukraine", "capital": "Kyiv", "location": [30.52, 50.45]}
+{"country": "Gabon", "capital": "Libreville", "location": [9.45, 0.39]}
+{"country": "Malawi", "capital": "Lilongwe", "location": [33.77, -13.97]}
+{"country": "Peru", "capital": "Lima", "location": [-77.03, -12.04]}
+{"country": "Portugal", "capital": "Lisbon", "location": [-9.14, 38.72]}
+{"country": "Slovenia", "capital": "Ljubljana", "location": [14.51, 46.06]}
+{"country": "Togo", "capital": "Lomé", "location": [1.23, 6.12]}
+{"country": "Zambia", "capital": "Lusaka", "location": [28.28, -15.42]}
+{"country": "Luxembourg", "capital": "Luxembourg", "location": [6.13, 49.61]}
+{"country": "Spain", "capital": "Madrid", "location": [-3.70, 40.42]}
+{"country": "Nicaragua", "capital": "Managua", "location": [-86.27, 12.11]}
+{"country": "Bahrain", "capital": "Manama", "location": [50.58, 26.23]}
+{"country": "Philippines", "capital": "Manila", "location": [120.98, 14.62]}
+{"country": "Mozambique", "capital": "Cidade de Maputo", "location": [32.59, -25.97]}
+{"country": "Belarus", "capital": "Minsk", "location": [27.57, 53.90]}
+{"country": "Somalia", "capital": "Mogadishu", "location": [45.34, 2.04]}
+{"country": "Uruguay", "capital": "Montevideo", "location": [-56.16, -34.89]}
+{"country": "Russia", "capital": "Moscow", "location": [37.62, 55.75]}
+{"country": "Oman", "capital": "Muscat", "location": [58.59, 23.61]}
+{"country": "Kenya", "capital": "Nairobi", "location": [36.82, -1.29]}
+{"country": "Myanmar", "capital": "Naypyidaw", "location": [96.20, 19.73]}
+{"country": "Chad", "capital": "N'Djamena", "location": [18.63, 12.11]}
+{"country": "Niger", "capital": "Niamey", "location": [2.11, 13.50]}
+{"country": "Cyprus", "capital": "Nicosia", "location": [33.32, 35.18]}
+{"country": "Mauritania", "capital": "Nouakchott", "location": [-15.97, 18.09]}
+{"country": "Norway", "capital": "Oslo", "location": [10.75, 59.91]}
+{"country": "Canada", "capital": "Ottawa", "location": [-75.69, 45.42]}
+{"country": "France", "capital": "Paris", "location": [2.35, 48.86]}
+{"country": "Montenegro", "capital": "Podgorica", "location": [19.26, 42.44]}
+{"country": "Kosovo", "capital": "Pristina", "location": [21.11, 42.64]}
+{"country": "Ecuador", "capital": "Quito", "location": [-78.49, -0.21]}
+{"country": "Morocco", "capital": "Rabat", "location": [-6.84, 34.02]}
+{"country": "Iceland", "capital": "Reykjavik", "location": [-21.82, 64.13]}
+{"country": "Latvia", "capital": "Riga", "location": [24.12, 56.95]}
+{"country": "Italy", "capital": "Rome", "location": [12.49, 41.89]}
+{"country": "Chile", "capital": "Santiago", "location": [-70.65, -33.46]}
+{"country": "Singapore", "capital": "Singapore", "location": [103.86, 1.38]}
+{"country": "Bulgaria", "capital": "Sofia", "location": [23.32, 42.69]}
+{"country": "Sweden", "capital": "Stockholm", "location": [18.06, 59.33]}
+{"country": "Fiji", "capital": "Suva", "location": [178.45, -17.74]}
+{"country": "Taiwan", "capital": "Taipei", "location": [121.55, 25.04]}
+{"country": "Estonia", "capital": "Tallinn", "location": [24.75, 59.44]}
+{"country": "Uzbekistan", "capital": "Tashkent", "location": [69.32, 41.30]}
+{"country": "Georgia", "capital": "Tbilisi", "location": [44.79, 41.71]}
+{"country": "Iran", "capital": "Tehran", "location": [51.42, 35.69]}
+{"country": "Albania", "capital": "Tiranë", "location": [19.82, 41.32]}
+{"country": "Japan", "capital": "Tokyo", "location": [139.75, 35.69]}
+{"country": "Libya", "capital": "Tripoli", "location": [13.14, 32.87]}
+{"country": "Tunisia", "capital": "Tunis", "location": [10.16, 36.80]}
+{"country": "Mongolia", "capital": "Ulaanbaatar", "location": [106.91, 47.89]}
+{"country": "Malta", "capital": "Valletta", "location": [14.51, 35.90]}
+{"country": "Austria", "capital": "Vienna", "location": [16.37, 48.19]}
+{"country": "Lithuania", "capital": "Vilnius", "location": [25.26, 54.73]}
+{"country": "Poland", "capital": "Warsaw", "location": [21.01, 52.24]}
+{"country": "Namibia", "capital": "Windhoek", "location": [17.06, -22.56]}
+{"country": "Cameroon", "capital": "Yaounde", "location": [11.5, 3.87]}
+{"country": "Armenia", "capital": "Yerevan", "location": [44.51, 40.17]}
+{"country": "Croatia", "capital": "Zagreb", "location": [15.97, 45.79]}
+{"country": "Palestinian Territory", "capital": "Jerusalem", "location": [35.21, 31.78]}
+{"country": "Czechia", "capital": "Prague", "location": [14.46, 50.07]}
+{"country": "Côte d'Ivoire", "capital": "Abidjan", "location": [-4.03, 5.33]}
+{"country": "Qatar", "capital": "Doha", "location": [51.53, 25.28]}
+{"country": "The Gambia", "capital": "Banjul", "location": [-16.65, 13.45]}
