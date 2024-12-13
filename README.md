@@ -113,7 +113,7 @@ The GBCD corpus spans 223 countries and regions worldwide, encompassing 193 UN m
 
 ## Data mining
 
-<img src="4.Data mining/domain_name_distribution.svg" style="zoom: 30%;" />
+![image]([https://github.com/ZhiliangMa/MPU6500-HMC5983-AK8975-BMP280-MS5611-10DOF-IMU-PCB/blob/main/img/IMU-V5-TOP.jpg](https://github.com/Computational-social-science/GBCD/blob/main/4.Domain%20name%20distribution/domain_name_distribution.svg))
 
 ## Usage Notes
 The GBCD corpus enables the comprehensive assessment and characterization of global brain circulation, facilitating planning and analysis at the national and geographic levels. To ensure high data quality and extensive geographic coverage, specific names, materials, and map layouts have been employed. It is essential to note that these choices do not imply any endorsement or stance by the authors or their respective countries regarding the legal status of any nation, territory, or region. Additionally, the depiction of borders and boundaries on the maps is purely indicative and does not signify formal recognition or acceptance by the publisher. The maps and database are intended to provide a neutral representation of geographic information, and any interpretation or inference of political boundaries or affiliations is explicitly excluded.
