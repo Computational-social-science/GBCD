@@ -112,16 +112,16 @@ The GBCD corpus spans 223 countries and regions worldwide, encompassing 193 UN m
 <br/><br/>
 
 ## Data mining
-域名
+域名<br/>
 ![image](https://github.com/Computational-social-science/GBCD/blob/main/4.Domain%20name%20distribution/domain_name_distribution.svg)
 <br/>
-地理
+地理<br/>
 ![image](https://github.com/Computational-social-science/GBCD/blob/main/5.Geographical%20heterogeneity/geographical_heterogeneity.png)
 <br/>
-流向
+流向<br/>
 ![image](https://github.com/Computational-social-science/GBCD/blob/main/6.Geographical%20trajectory%20network/geographical_trajectory_network.svg)
 <br/>
-动态
+动态<br/>
 ![image](https://github.com/Computational-social-science/GBCD/blob/main/7.Dynamic%20indicators/dynamic_indicators.svg)
 <br/>
 ## Usage Notes
