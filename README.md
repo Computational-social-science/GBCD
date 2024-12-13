@@ -112,16 +112,16 @@ The GBCD corpus spans 223 countries and regions worldwide, encompassing 193 UN m
 <br/><br/>
 
 ## Data mining
-Domain name distribution by continents and fields.<br/>
+### Domain name distribution by continents and fields.<br/>
 ![image](https://github.com/Computational-social-science/GBCD/blob/main/4.Domain%20name%20distribution/domain_name_distribution.svg)
 <br/>
-Geographical heterogeneity of national brain circulation frequency.<br/>
+### Geographical heterogeneity of national brain circulation frequency.<br/>
 ![image](https://github.com/Computational-social-science/GBCD/blob/main/5.Geographical%20heterogeneity/geographical_heterogeneity.png)
 <br/>
-Geographical trajectory network of transnational brain circulation.<br/>
+### Geographical trajectory network of transnational brain circulation.<br/>
 ![image](https://github.com/Computational-social-science/GBCD/blob/main/6.Geographical%20trajectory%20network/geographical_trajectory_network.svg)
 <br/>
-Dynamic indicators of national brain circulation flux.<br/>
+### Dynamic indicators of national brain circulation flux.<br/>
 ![image](https://github.com/Computational-social-science/GBCD/blob/main/7.Dynamic%20indicators/dynamic_indicators.png)
 <br/>
 ## Usage Notes
