@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<!-- Load d3.js & color scale-->
+<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+<!-- Create a div where the graph will take place -->
+<div id="my_dataviz"></div>
+
+<script>
+
+    // set the dimensions and margins of the graph
+    var margin = {top: 150, right: 200, bottom: 130, left: 20},
+        width = 900 - margin.left - margin.right,
+        height = 600 - margin.top - margin.bottom;
+    
+    // append the svg object to the body of the page
+    var svg = d3.select("#my_dataviz")
+      .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+        .attr("transform",
+              "translate(" + margin.left + "," + margin.top + ")");
+    
+    // Parse the Data
+    d3.csv("month_year5_no_others.csv", function(data) {
+      // List of groups = header of the csv files
+      var keys = data.columns.slice(1)
+
+      // Add X axis
+      var x = d3.scaleLinear()
+        .domain(d3.extent(data, function(d) { return d.year; }))
+        .range([ 0, width ]);
+      
+      svg.append("g")
+        .attr("transform", "translate(0," + height*0.8 + ")")
+        .call(d3.axisBottom(x)
+        // .tickSize(-height*.7)
+      .tickFormat(d3.format("d"))
+      .tickValues([2000,2003, 2006, 2010,2012, 2018,2020,2024]     
+      )
+    );
+        // Add upper frame line for X axis
+      svg.append("line")
+        .attr("x1", 0)
+        .attr("y1", height * 0.8 - height * 0.7)
+        .attr("x2", width)
+        .attr("y2", height * 0.8 - height * 0.7)
+        .attr("stroke", "black")
+        .attr("stroke-width", 1);
+
+    // 
+    // .tickValues([2000, 2006, 2012, 2018, 2024])
+    // .tickFormat(d3.format("d")))
+
+        // .select(".domain").remove()
+      // Customization
+      // svg.selectAll(".tick line").attr("stroke", "#b8b8b8")
+
+      // Add background shadow for a specific time range
+      //新冠疫情
+      var startYear = 2019.4;
+      var endYear = 2023.4;
+      var eventDescription = "COVID-19";
+
+      // Calculate the x positions for the start and end years
+      var xStart = x(startYear);
+      var xEnd = x(endYear);
+      var rectWidth = xEnd - xStart;
+
+      // Add the shadow rectangle
+      svg.append("rect")
+          .attr("x", xStart)
+          .attr("y", 32) // Starting from the top of the graph
+          .attr("width", rectWidth)
+          .attr("height", height*0.7) // Set height to align bottom with the x-axis
+          .attr("fill", "rgba(0, 0, 0, 0.1)") // Semi-transparent shadow
+          .attr("fill-opacity",1)
+          .attr("class", "highlight");
+
+      // Add the event description text (vertical)
+      svg.append("text")
+          .attr("x", (xStart + xEnd) / 2.09) // Centered horizontally within the shadow
+          .attr("y", height * 0.15) // Position at the middle height of the rectangle
+          .attr("text-anchor", "middle") // Center the text horizontally
+          .attr("transform", `rotate(0, ${(xStart + xEnd) / 2}, ${height * 0.45})`) // Rotate text 90 degrees counter-clockwise
+          .text(eventDescription)
+          .style("font-family", "Times New Roman") // Set font family
+          .style("font-size", "10px") // Set font size
+          .style("fill", "#333") // Set text color
+          .style("font-weight", "bold"); // Set font weight to bold
+        
+      //甲流
+      var startYear1 = 2009.0;
+      var endYear1 = 2010.48;
+      var eventDescription1 = "H1N1";
+
+      // Calculate the x positions for the start and end years
+      var xStart1 = x(startYear1);
+      var xEnd1 = x(endYear1);
+      var rectWidth = xEnd1 - xStart1;
+
+      // Add the shadow rectangle
+      svg.append("rect")
+          .attr("x", xStart1)
+          .attr("y", 32) // Starting from the top of the graph
+          .attr("width", rectWidth)
+          .attr("height", height*0.7) // Set height to align bottom with the x-axis
+          .attr("fill", "rgba(0, 0, 0, 0.1)") // Semi-transparent shadow
+          .attr("fill-opacity",0.8)
+          .attr("class", "highlight");
+
+      // Add the event description text (vertical)
+      svg.append("text")
+          .attr("x", (xStart1 + xEnd1) / 2) // Centered horizontally within the shadow
+          .attr("y", height * 0.15) // Position at the middle height of the rectangle
+          .attr("text-anchor", "middle") // Center the text horizontally
+          .attr("transform", `rotate(0, ${(xStart1 + xEnd1) / 2}, ${height * 0.45})`) // Rotate text 90 degrees counter-clockwise
+          .text(eventDescription1)
+          .style("font-family", "Times New Roman") // Set font family
+          .style("font-size", "10px") // Set font size
+          .style("fill", "#333") // Set text color
+          .style("font-weight", "bold"); // Set font weight to bold
+
+
+      //sars
+      var startYear2 = 2002.68;
+      var endYear2 = 2003.72;
+      var eventDescription2 = "SARS";
+
+      // Calculate the x positions for the start and end years
+      var xStart2 = x(startYear2);
+      var xEnd2 = x(endYear2);
+      var rectWidth2 = xEnd2 - xStart2;
+
+      // Add the shadow rectangle
+      svg.append("rect")
+          .attr("x", xStart2)
+          .attr("y", 32) // Starting from the top of the graph
+          .attr("width", rectWidth2)
+          .attr("height", height*0.7) // Set height to align bottom with the x-axis
+          .attr("fill", "rgba(0, 0, 0, 0.1)") // Semi-transparent shadow
+          .attr("fill-opacity",0.8)
+          .attr("class", "highlight");
+
+      // Add the event description text (vertical)
+      svg.append("text")
+          .attr("x", (xStart2 + xEnd2) / 2.0) // Centered horizontally within the shadow
+          .attr("y", height * 0.15) // Position at the middle height of the rectangle
+          .attr("text-anchor", "middle") // Center the text horizontally
+          .attr("transform", `rotate(0, ${(xStart2 + xEnd2) / 2}, ${height * 0.45})`) // Rotate text 90 degrees counter-clockwise
+          .text(eventDescription2)
+          .style("font-family", "Times New Roman") // Set font family
+          .style("font-size", "10px") // Set font size
+          .style("fill", "#333") // Set text color
+          .style("font-weight", "bold"); // Set font weight to bold
+
+      // Add Y axis
+      var y = d3.scaleLinear()
+        .domain([-25, 25])
+        .range([ height, 0 ]);
+    
+      // color palette
+      var color = d3.scaleOrdinal()
+        .domain(keys)
+        .range(d3.schemeDark2);
+    
+      //stack the data?
+      var stackedData = d3.stack()
+        .offset(d3.stackOffsetSilhouette)
+        .keys(keys)
+        (data)
+      console.log(stackedData);
+    
+      // create a tooltip
+      var Tooltip = svg
+        .append("text")
+        .attr("x", 0)
+        .attr("y", 0)
+        .style("opacity", 0)
+        .style("font-size", 17)
+    
+      // Three function that change the tooltip when user hover / move / leave a cell
+      var mouseover = function(d) {
+        Tooltip.style("opacity", 1)
+        d3.selectAll(".myArea").style("opacity", .2)
+        d3.select(this)
+          .style("stroke", "black")
+          .style("opacity", 1)
+      }
+      var mousemove = function(d,i) {
+        grp = keys[i]
+        Tooltip.text(grp)
+      }
+      var mouseleave = function(d) {
+        Tooltip.style("opacity", 0)
+        d3.selectAll(".myArea").style("opacity", 1).style("stroke", "none")
+       }
+
+      // Define a custom color palette
+      var color = d3.scaleOrdinal()
+        .domain(keys)
+        .range(["#14517C", "#2F7FC1", "#E7EFFA", "#96C37D", "#F3D266",
+          "#D8383A", "#F7E1ED", "#F8F3F9", "#C497B2", "#A9B8C6"
+        ]); // Add as many colors as you have keys
+
+      // var color = d3.scaleOrdinal()
+      // .domain(keys)
+      // .range(["#B8DBB3", "#72B063", "#719AAC", "#E29135", "#94C6CD",
+      //   "#4A5F7E", "#F7E1ED", "#F8F3F9", "#C497B2", "#A9B8C6"
+      // ]); // Add as many colors as you have keys
+
+      var legend = svg.selectAll(".legend")
+        .data(keys)
+        .enter()
+        .append("g")
+          .attr("class", "legend")
+          .attr("transform", function(d, i) {
+            var x = (i % 5) * 100 + 130;
+            var y = Math.floor(i / 5) * 20 - 25;
+            return "translate(" + x + ", " + y + ")";
+          });
+
+      legend.append("circle")
+        .attr("cx", 9) // center x-coordinate
+        .attr("cy", 9) // center y-coordinate
+        .attr("r", 5.5) // radius
+        .style("fill", function(d) { return color(d); });
+
+      legend.append("text")
+        .attr("x", 20)
+        .attr("y", 9)
+        .attr("dy", ".35em")
+        .style("font-family", "Times New Roman") // set font family to Times New Roman
+        .style("font-size", "10px") // set font size to 12px
+        .text(function(d) { return d; });
+
+  
+      // Area generator
+      var area = d3.area().curve(d3.curveCatmullRom)
+        .x(function(d) { return x(d.data.year); })
+        .y0(function(d) { return y(d[0]); })
+        .y1(function(d) { return y(d[1]); })
+
+
+      //画线
+
+      //美国新冠开放
+      var year2023 = 2021.56;
+      var x2023 = x(year2023);
+
+      svg.append("line")
+        .attr("x1", x2023)
+        .attr("x2", x2023)
+        .attr("y1", 32.2)
+        .attr("y2", height*0.8)
+        .attr("stroke", "black")
+        .attr("stroke-width", 1)          // 设置线的粗细
+        .attr("stroke-opacity", 0.5);     // 设置线的透明度
+
+      // Add the dashed line at 2007
+      //世卫组织新冠结束
+      var year2007 = 2023.4;
+      var x2007 = x(year2007);
+
+      svg.append("line")
+        .attr("x1", x2007)
+        .attr("x2", x2007)
+        .attr("y1", 32.2)
+        .attr("y2", height*0.8)
+        .attr("stroke", "black")
+        .attr("stroke-width", 1)          // 设置线的粗细
+        .attr("stroke-opacity", 0.5);
+        // .attr("stroke-dasharray", "2,2");
+
+      //世卫SARS结束
+      var year2023 = 2003.72;
+      var x2023 = x(year2023);
+
+      svg.append("line")
+        .attr("x1", x2023)
+        .attr("x2", x2023)
+        .attr("y1", 32.2)
+        .attr("y2", height*0.8)
+        .attr("stroke", "black")
+        .attr("stroke-width", 1)          // 设置线的粗细
+        .attr("stroke-opacity", 0.5);
+        // .attr("stroke-dasharray", "2,2");
+
+      //世卫H1N1结束
+      var year2023 = 2010.48;
+      var x2023 = x(year2023);
+
+      svg.append("line")
+        .attr("x1", x2023)
+        .attr("x2", x2023)
+        .attr("y1", 32.2)
+        .attr("y2", height*0.8)
+        .attr("stroke", "black")
+        .attr("stroke-width", 1)          // 设置线的粗细
+        .attr("stroke-opacity", 0.5);
+
+      // Show the areas with borders
+      svg
+        .selectAll("mylayers")
+        .data(stackedData)
+        .enter()
+        .append("path")
+          .attr("class", "myArea")
+          .style("fill", function(d) { return color(d.key); })
+          .style("stroke", "#333") // Set the color of the border (you can customize this)
+          .style("stroke-width", 1.5) // Set the width of the border line
+          .attr("d", area)
+          .on("mouseover", mouseover)
+          .on("mousemove", mousemove)
+          .on("mouseleave", mouseleave);
+
+      // // Add the dashed line at 2007
+      // //世卫组织新冠结束
+      // var year2007 = 2023.4;
+      // var x2007 = x(year2007);
+
+      // svg.append("line")
+      //   .attr("x1", x2007)
+      //   .attr("x2", x2007)
+      //   .attr("y1", 32.2)
+      //   .attr("y2", height*0.8)
+      //   .attr("stroke", "black")
+      //   .attr("stroke-width", 1)          // 设置线的粗细
+      //   .attr("stroke-opacity", 0.5);
+      //   // .attr("stroke-dasharray", "2,2");
+
+      // Add the event description text (vertical)
+      svg.append("text")
+      .attr("x", 157) // Centered horizontally within the shadow
+      .attr("y", height * 2.27) // Position at the middle height of the rectangle
+      .attr("text-anchor", "middle") // Center the text horizontally
+      .attr("transform", `rotate(-90, ${(xStart2 + xEnd2) / 2}, ${height * 0.45})`) // Rotate text 90 degrees counter-clockwise
+      .text("WHO ends COVID-19")
+      .style("font-family", "Times New Roman") // Set font family
+      .style("font-size", "8px") // Set font size
+      .style("fill", "#333") // Set text color
+      .style("font-weight", "bold"); // Set font weight to bold
+
+      svg.append("text")
+        .attr("x", 660)  // Position the text in the center of the line
+        .attr("y", 26)  // Slightly above the line
+        .attr("text-anchor", "middle")
+        .text("2023-05")
+        .style("font-size", "9px")
+        .style("fill", "black");
+      
+      // //美国新冠开放
+      // var year2023 = 2021.56;
+      // var x2023 = x(year2023);
+
+      // svg.append("line")
+      //   .attr("x1", x2023)
+      //   .attr("x2", x2023)
+      //   .attr("y1", 32.2)
+      //   .attr("y2", height*0.8)
+      //   .attr("stroke", "black")
+      //   .attr("stroke-width", 1)          // 设置线的粗细
+      //   .attr("stroke-opacity", 0.5);     // 设置线的透明度
+        // .attr("stroke-dasharray", "2,2");
+
+      // Add the event description text (vertical)
+      svg.append("text")
+      .attr("x", 160) // Centered horizontally within the shadow
+      .attr("y", height * 2.11) // Position at the middle height of the rectangle
+      .attr("text-anchor", "middle") // Center the text horizontally
+      .attr("transform", `rotate(-90, ${(xStart2 + xEnd2) / 2}, ${height * 0.45})`) // Rotate text 90 degrees counter-clockwise
+      .text("USA lifts COVID-19")
+      .style("font-family", "Times New Roman") // Set font family
+      .style("font-size", "8px") // Set font size
+      .style("fill", "#333") // Set text color
+      .style("font-weight", "bold"); // Set font weight to bold
+
+      svg.append("text")
+        .attr("x", 610)  // Position the text in the center of the line
+        .attr("y", 26)  // Slightly above the line
+        .attr("text-anchor", "middle")
+        .text("2021-07")
+        .style("font-size", "9px")
+        .style("fill", "black");
+
+      // //世卫SARS结束
+      // var year2023 = 2003.72;
+      // var x2023 = x(year2023);
+
+      // svg.append("line")
+      //   .attr("x1", x2023)
+      //   .attr("x2", x2023)
+      //   .attr("y1", 32.2)
+      //   .attr("y2", height*0.8)
+      //   .attr("stroke", "black")
+      //   .attr("stroke-width", 1)          // 设置线的粗细
+      //   .attr("stroke-opacity", 0.5);
+      //   // .attr("stroke-dasharray", "2,2");
+
+      // Add the event description text (vertical)
+      svg.append("text")
+      .attr("x", 164) // Centered horizontally within the shadow
+      .attr("y", height * 0.527) // Position at the middle height of the rectangle
+      .attr("text-anchor", "middle") // Center the text horizontally
+      .attr("transform", `rotate(-90, ${(xStart2 + xEnd2) / 2}, ${height * 0.45})`) // Rotate text 90 degrees counter-clockwise
+      .text("WHO ends SARS")
+      .style("font-family", "Times New Roman") // Set font family
+      .style("font-size", "8px") // Set font size
+      .style("fill", "#333") // Set text color
+      .style("font-weight", "bold"); // Set font weight to bold
+
+      svg.append("text")
+        .attr("x", 105)  // Position the text in the center of the line
+        .attr("y", 26)  // Slightly above the line
+        .attr("text-anchor", "middle")
+        .text("2003-09")
+        .style("font-size", "9px")
+        .style("fill", "black");
+
+      // //世卫H1N1结束
+      // var year2023 = 2010.48;
+      // var x2023 = x(year2023);
+
+      // svg.append("line")
+      //   .attr("x1", x2023)
+      //   .attr("x2", x2023)
+      //   .attr("y1", 32.2)
+      //   .attr("y2", height*0.8)
+      //   .attr("stroke", "black")
+      //   .attr("stroke-width", 1)          // 设置线的粗细
+      //   .attr("stroke-opacity", 0.5);
+        // .attr("stroke-dasharray", "2,2");
+
+      svg.append("text")
+      .attr("x", 165) // Centered horizontally within the shadow
+      .attr("y", height * 1.127) // Position at the middle height of the rectangle
+      .attr("text-anchor", "middle") // Center the text horizontally
+      .attr("transform", `rotate(-90, ${(xStart2 + xEnd2) / 2}, ${height * 0.45})`) // Rotate text 90 degrees counter-clockwise
+      .text("WHO ends H1N1")
+      .style("font-family", "Times New Roman") // Set font family
+      .style("font-size", "8px") // Set font size
+      .style("fill", "#333") // Set text color
+      .style("font-weight", "bold"); // Set font weight to bold
+
+      svg.append("text")
+        .attr("x", 297)  // Position the text in the center of the line
+        .attr("y", 26)  // Slightly above the line
+        .attr("text-anchor", "middle")
+        .text("2010-06")
+        .style("font-size", "9px")
+        .style("fill", "black");
+    
+    })
+    </script>

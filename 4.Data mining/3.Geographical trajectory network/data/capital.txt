@@ -1,0 +1,92 @@
+Abidjan|Ivory Coast
+Abu Dhabi|United Arab Emirates
+Adamstown|Pitcairn Islands
+Addis Ababa|Ethiopia
+Amsterdam|Netherlands
+Andorra la Vella|Andorra
+Avarua|Cook Islands
+Bandar Seri Begawan|Brunei
+Bangui|Central African Republic
+Basseterre|Saint Kitts and Nevis
+Bern|Switzerland
+Bloemfontein|South Africa
+Buenos Aires|Argentina
+Castries|Saint Lucia
+Charlotte Amalie|United States Virgin Islands
+Cockburn Town|Turks and Caicos Islands
+Colombo|Sri Lanka
+Cotonou|Benin
+Dili|East Timor
+Douglas|Isle of Man
+Flying Fish Cove|Christmas Island
+Freetown|Sierra Leone
+George Town|Cayman Islands
+Georgetown|Ascension Island
+Gitega|Burundi
+Guatemala City|Guatemala
+Gustavia|Saint Barthélemy
+Honiara|Solomon Islands
+Juba|South Sudan
+King Edward Point|South Georgia and the South Sandwich Islands
+Kingston|Norfolk Island
+Kingstown|Saint Vincent and the Grenadines
+Kinshasa|Democratic Republic of the Congo
+Kuala Lumpur|Malaysia
+Kuwait City|Kuwait
+La Paz|Bolivia
+Lobamba|Eswatini
+Mbabane|Eswatini
+London|United Kingdom
+London|British Indian Ocean Territory	
+Luanda|Angola
+Majuro|Marshall Islands
+Malabo|Equatorial Guinea
+Mariehamn|Åland Islands
+Marigot|Saint Martin
+Mata Utu|Wallis and Futuna
+Mexico City|Mexico
+Nassau|Bahamas, The
+New Delhi|India
+Nicosia|Northern Cyprus
+Nouméa|New Caledonia
+Ouagadougou|Burkina Faso
+Pago Pago|American Samoa
+Panama City|Panama
+Papeete|French Polynesia
+Philipsburg|Sint Maarten
+Phnom Penh|Cambodia
+Port Louis|Mauritius
+Port Moresby|Papua New Guinea
+Port of Spain|Trinidad and Tobago
+Port Vila|Vanuatu
+Prague|Czech Republic
+Praia|Cape Verde
+Pyongyang|North Korea
+Riyadh|Saudi Arabia
+Road Town|British Virgin Islands
+Rothera|British Antarctic Territory
+Saipan|Northern Mariana Islands
+San José|Costa Rica
+San Juan|Puerto Rico
+San Marino|San Marino
+San Salvador|El Salvador
+Santo Domingo|Dominican Republic
+São Tomé|São Tomé and Príncipe
+Sarajevo|Bosnia and Herzegovina
+Seoul|South Korea
+Skopje|North Macedonia
+South Tarawa|Kiribati
+St. George's|Grenada
+St. Helier|Jersey
+St. John's|Antigua and Barbuda
+St. Peter Port|Guernsey
+St. Pierre|Saint Pierre and Miquelon
+Stanley|Falkland Islands
+The Bottom|Saba
+Tórshavn|Faroe Islands
+Tskhinvali|South Ossetia
+The Valley|Anguilla
+Vatican City|Vatican City
+Washington, D.C.|United States
+Wellington|New Zealand
+West Island|Cocos (Keeling) Islands
