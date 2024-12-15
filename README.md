@@ -114,6 +114,7 @@ The GBCD corpus spans 223 countries and regions worldwide, encompassing 193 UN m
 
 
 ## Data mining
+Leveraging data mining techniques on the GBCD corpus enables researchers to map and characterize the brain circulation patterns of skilled professionals across different countries.further more,researchers can gain a deeper understanding of the complex dynamics underlying brain circulation and make informed decisions to address the challenges.  This study highlights the potential of data-driven approaches to inform policy and promote more effective brain circulation strategies.
 ### Domain name distribution by continents and fields.<br/>
 ![image](https://github.com/Computational-social-science/GBCD/blob/main/4.Domain%20name%20distribution/domain_name_distribution.svg)
 <br/>
