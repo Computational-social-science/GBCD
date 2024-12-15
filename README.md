@@ -111,6 +111,8 @@ The GBCD corpus spans 223 countries and regions worldwide, encompassing 193 UN m
   * Islands: Abah Island,Kuril Islands,Malvinas Islands,Falkland Islands,Hanish Islands,Palmyra Atoll,Spratly Islands,Barbuda Islands,Chafarinas Islands,Saint Helena Islands,Seto Islands,Aguinas Islands,Kirkira Islands,Gulf of Gdańsk Islands,Kuril Islands,Falkland Islands,Spratly Islands,Paracel Islands
 <br/><br/>
 
+<img src="6.Geographical%20trajectory%20network/geographical_trajectory_network.svg" style="zoom: 30%;" />
+
 ## Data mining
 ### Domain name distribution by continents and fields.<br/>
 ![image](https://github.com/Computational-social-science/GBCD/blob/main/4.Domain%20name%20distribution/domain_name_distribution.svg)
