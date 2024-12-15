@@ -124,6 +124,7 @@ The GBCD corpus spans 223 countries and regions worldwide, encompassing 193 UN m
 <img src="6.Geographical%20trajectory%20network/output.png" style="zoom: 80%;" />
 <br/>
 ### Dynamic indicators of national brain circulation flux.<br/>
+<img src="7.Dynamic%20indicators/dynamic_indicators.png" style="zoom: 80%;" />
 ![image](https://github.com/Computational-social-science/GBCD/blob/main/7.Dynamic%20indicators/dynamic_indicators.png)
 <br/>
 ## Usage Notes
