@@ -2,7 +2,7 @@
 The global competition for human capital is fuelled by intricate brain circulation dynamics, where individuals with specialized skills traverse geographic, organizational, and national boundaries to address workforce demands. However, a comprehensive framework for integrating and interpreting heterogeneous data on global brain circulation remains elusive. Here we introduce [the Global Brain Circulation Dynamics (GBCD) corpus](https://doi.org/10.6084/m9.figshare.26868511), a longitudinally integrated repository of geo-information encompassing 223 countries/regions from 2000 to 2024. Garnered from diachronic narrative texts, the GBCD corpus provides granular insights into transnational brain circulation patterns and their interconnections with sociocultural progress. Continuously updated to reflect spatiotemporal dynamics, the GBCD corpus serves as a definitive reference for real-time and ex-post analysis of global brain circulation. Our analysis reveals two pivotal findings: (i) narrative brain circulation closely mirrors physical brain mobility, and (ii) geopolitical relations and spatiotemporal dynamics exhibit distinct patterns across countries/regions. The GBCD corpus establishes a novel benchmark for examining spatiotemporal brain circulation worldwide, empowering policymakers to develop evidence-based strategies for attracting and retaining human capital in rapidly evolving global landscape.
 
 ## Corpus
-The GBCD corpus is a comprehensive dataset comprising 2,904,663,710 tokens, structured into two distinct corpora: diachronic and synchronic. The corpus encompasses 1,273,626 entries related to brain circulation features, with the diachronic corpus accounting for 1,132,674 entries that span a 24-year period (2000-2024). Notably, the diachronic corpus is continuously updated in real-time, ensuring the data remains current and relevant for both real-time and ex-post analyses of brain circulation. In contrast, the synchronic corpus contains 140,952 entries, deliberately excluding timestamp features to facilitate synchronic research.
+The GBCD corpus is a comprehensive dataset comprising 2,904,663,710 tokens, structured into two distinct corpora: diachronic and synchronic. The corpus encompasses 1,764,234 entries related to brain circulation features, with the diachronic corpus accounting for 1,311,616 entries that span a 24-year period (2000-2024). Notably, the diachronic corpus is continuously updated in real-time, ensuring the data remains current and relevant for both real-time and ex-post analyses of brain circulation. In contrast, the synchronic corpus contains 452,618 entries, deliberately excluding timestamp features to facilitate synchronic research.
 <table>
   <tr>
     <th>Corpus</th>
@@ -13,14 +13,14 @@ The GBCD corpus is a comprehensive dataset comprising 2,904,663,710 tokens, stru
   </tr>
   <tr>
     <td>Diachronic corpus</td>
-    <td>1,132,674</td>
+    <td>1,311,616</td>
     <td>2,087,930,788</td>
     <td>422,954,074</td>   
     <td>36,914,973</td>   
   </tr>
   <tr>
     <td>Synchronic corpus</td>
-    <td>140,952</td>
+    <td>452,618</td>
     <td>816,732,922</td>
     <td>158,891,392</td>
     <td>12,250,558</td>
