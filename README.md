@@ -106,8 +106,6 @@ The GBCD corpus spans 223 countries and regions worldwide, encompassing 193 UN m
   * Islands: Abah Island,Kuril Islands,Malvinas Islands,Falkland Islands,Hanish Islands,Palmyra Atoll,Spratly Islands,Barbuda Islands,Chafarinas Islands,Saint Helena Islands,Seto Islands,Aguinas Islands,Kirkira Islands,Gulf of Gdańsk Islands,Kuril Islands,Falkland Islands,Spratly Islands,Paracel Islands
 <br/><br/>
 
-
-
 ## Data mining
 Leveraging data mining techniques on the GBCD corpus enables researchers to map and characterize the brain circulation patterns of skilled professionals across different countries. Further more, researchers can gain a deeper understanding of the complex dynamics underlying brain circulation and make informed decisions to address the challenges.  This study highlights the potential of data-driven approaches to inform policy and promote more effective brain circulation strategies.
 ### Domain name distribution by continents and fields.<br/>
