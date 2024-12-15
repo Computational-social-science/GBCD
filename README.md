@@ -57,11 +57,6 @@ The corpus captures key attributes relevant to brain circulation, including orig
     <td>string</td>
   </tr>
   <tr>
-    <td>countrycode</td>
-    <td>ISO country code</td>
-    <td>string</td>
-  </tr>
-  <tr>
     <td>URL</td>
     <td>Source links to transfer narrative text, usually pointing to web pages and domain names</td>
     <td>string</td>
