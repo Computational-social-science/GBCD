@@ -32,7 +32,7 @@ The GBCD corpus is a comprehensive dataset comprising 2,904,663,710 tokens, stru
 ## Data record
 The corpus captures key attributes relevant to brain circulation, including origin, destination, diachronic narrative text, URL, and timestamp. Notably, geographic entities are mapped to the global country or region level, facilitating the analysis of transnational brain circulation.  Each country or region is accompanied by Countrycode, ISO2, and ISO3 identifiers, enabling multidimensional organization of brain circulation data. Furthermore, we distinguish between origin and destination in geographic entities related to circulation flow, allowing for the representation of brain gain and brain drain, and providing insights into bilateral brain circulation between countries.
 
-
+国家地区的反斜杠  无主权领土的表格
 ### Summary information about the GBCD corpus
 <table>
   <tr>
