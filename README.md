@@ -1,8 +1,11 @@
 # Global Brain Circulation Dynamics (GBCD) corpus
 The global competition for human capital is fuelled by intricate brain circulation dynamics, where individuals with specialized skills traverse geographic, organizational, and national boundaries to address workforce demands. However, a comprehensive framework for integrating and interpreting heterogeneous data on global brain circulation remains elusive. Here we introduce [the Global Brain Circulation Dynamics (GBCD) corpus](https://doi.org/10.6084/m9.figshare.26868511), a longitudinally integrated repository of geo-information encompassing 223 countries/regions from 2000 to 2024. 
-<br/>Garnered from diachronic narrative texts, the GBCD corpus provides granular insights into transnational brain circulation patterns and their interconnections with sociocultural progress. Continuously updated to reflect spatiotemporal dynamics, the GBCD corpus serves as a definitive reference for real-time and ex-post analysis of global brain circulation. Our analysis reveals two pivotal findings:<br/> 
+
+<br/>Garnered from diachronic narrative texts, the GBCD corpus provides granular insights into transnational brain circulation patterns and their interconnections with sociocultural progress. Continuously updated to reflect spatiotemporal dynamics, the GBCD corpus serves as a definitive reference for real-time and ex-post analysis of global brain circulation. Our analysis reveals two pivotal findings:
+<br/> 
 *   (i) narrative brain circulation closely mirrors physical brain mobility
-*   (ii) geopolitical relations and spatiotemporal dynamics exhibit distinct patterns across countries/regions 
+*   (ii) geopolitical relations and spatiotemporal dynamics exhibit distinct patterns across countries/regions
+<br/> 
 <br/>The GBCD corpus establishes a novel benchmark for examining spatiotemporal brain circulation worldwide, empowering policymakers to develop evidence-based strategies for attracting and retaining human capital in rapidly evolving global landscape.<br/>
 
 ## Corpus
