@@ -3,8 +3,8 @@ The global competition for human capital is fuelled by intricate brain circulati
 
 Garnered from diachronic narrative texts, the GBCD corpus provides granular insights into transnational brain circulation patterns and their interconnections with sociocultural progress. Continuously updated to reflect spatiotemporal dynamics, the GBCD corpus serves as a definitive reference for real-time and ex-post analysis of global brain circulation. Our analysis reveals two pivotal findings:
 <br/> 
-*   (i) narrative brain circulation closely mirrors physical brain mobility
-*   (ii) geopolitical relations and spatiotemporal dynamics exhibit distinct patterns across countries/regions<br/>
+*   narrative brain circulation closely mirrors physical brain mobility
+*   geopolitical relations and spatiotemporal dynamics exhibit distinct patterns across countries/regions<br/>
 
 The GBCD corpus establishes a novel benchmark for examining spatiotemporal brain circulation worldwide, empowering policymakers to develop evidence-based strategies for attracting and retaining human capital in rapidly evolving global landscape.<br/>
 
