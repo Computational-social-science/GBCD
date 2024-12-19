@@ -132,7 +132,7 @@ The GBCD corpus spans 223 countries and regions worldwide, encompassing 193 UN m
 
 <table>
   <tr>
-    <th>Geographic division</th>
+    <th>Geographic Division</th>
     <th>Membership</th>
   </tr>
   <tr>
