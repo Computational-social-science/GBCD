@@ -60,7 +60,7 @@ The GBCD corpus is a comprehensive dataset comprising 2,904,663,710 tokens, stru
 
 
 ## Data record
-The corpus captures key attributes relevant to brain circulation, including origin, destination, diachronic narrative text, URL, and timestamp. Notably, geographic entities are mapped to the global country or region level, facilitating the analysis of transnational brain circulation.  Each country or region is accompanied by Countrycode, ISO2, and ISO3 identifiers, enabling multidimensional organization of brain circulation data. Furthermore, we distinguish between origin and destination in geographic entities related to circulation flow, allowing for the representation of brain gain and brain drain, and providing insights into bilateral brain circulation between countries.
+The corpus captures key attributes relevant to brain circulation, including origin, destination, diachronic narrative text, URL, and timestamp. Notably, geographic entities are mapped to the global country or region level, facilitating the analysis of transnational brain circulation.  Each country or region is accompanied by Countrycode, ISO2, and ISO3 identifiers, enabling multidimensional organization of brain circulation data. Furthermore, we distinguish between origin and destination in geographic entities related to circulation flow, allowing for the representation of brain gain and brain drain, and providing insights into bilateral brain circulation between countries/rigions.
 
 ### Summary information about the GBCD corpus
 <table>
@@ -124,7 +124,7 @@ The corpus captures key attributes relevant to brain circulation, including orig
 
 
 ### Geographic entity criteria
-The GBCD corpus spans 223 countries and regions worldwide, encompassing 193 UN member states, one observer state, and 29 non-sovereign island territories.Our national geographic divisions adhere to methods endorsed by the United Nations Statistics Division for international statistical data collection, ensuring consistency and compatibility with global standards.
+The GBCD corpus spans 223 countrie/regions worldwide, encompassing 193 UN member states, one observer state, and 29 non-sovereign island territories.Our national geographic divisions adhere to methods endorsed by the United Nations Statistics Division for international statistical data collection, ensuring consistency and compatibility with global standards.
 * **Member State of the United Nations:** refers to a sovereign country that has been officially admitted to the United Nations (UN) and holds full membership status. Member States enjoy voting rights, participate in all UN activities, and are bound by the principles outlined in the UN Charter.
   - [UN Membership](https://www.un.org/en/about-us/member-states)
 * **Non-Member Observer State of the United Nations:** refers to an entity recognized by the United Nations General Assembly that has observer status, granting it certain privileges and participation rights in UN activities, but without full membership or voting rights in the General Assembly.
