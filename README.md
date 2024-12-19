@@ -12,6 +12,8 @@ The GBCD corpus establishes a novel benchmark for examining spatiotemporal brain
 The GBCD corpus is a comprehensive dataset comprising 2,904,663,710 tokens, structured into two distinct corpora: diachronic and synchronic. The corpus encompasses 1,764,234 entries related to brain circulation features, with the diachronic corpus accounting for 1,311,616 entries that span a 24-year period (2000-2024). Notably, the diachronic corpus is continuously updated in real-time, ensuring the data remains current and relevant for both real-time and ex-post analyses of brain circulation. In contrast, the synchronic corpus contains 452,618 entries, deliberately excluding timestamp features to facilitate synchronic research.
 <table>
   <tr>
+    <th>Version</th>
+    <th>Update Time</th>
     <th>Corpus</th>
     <th>Entry Count</th>
     <th>Processed Token Count</th>
@@ -19,15 +21,34 @@ The GBCD corpus is a comprehensive dataset comprising 2,904,663,710 tokens, stru
     <th>Sentence Count</th>
   </tr>
   <tr>
+    <td rowspan="2">V1.0</td>
+    <td rowspan="2">2024-8-29</td>
     <td>Diachronic corpus</td>
-    <td>1,311,616</td>
+    <td>0.9459</td>
+    <td>0.9269</td>
+    <td>0.9279</td>
+    <td>0.9259</td>
+  </tr>
+  <tr>
+    <td>Synchronic corpus</td>
+    <td>0.9885</td>
+    <td>0.9844</td>
+    <td>0.9901</td>
+    <td>0.9789</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">V2.0</td>
+    <td rowspan="2">2024-12-16</td>
+    <td>Diachronic corpus</td>
+    <td>1,132,674</td>
     <td>2,087,930,788</td>
     <td>422,954,074</td>   
     <td>36,914,973</td>   
   </tr>
   <tr>
     <td>Synchronic corpus</td>
-    <td>452,618</td>
+    <td>140,952</td>
     <td>816,732,922</td>
     <td>158,891,392</td>
     <td>12,250,558</td>
@@ -106,10 +127,31 @@ The GBCD corpus spans 223 countries and regions worldwide, encompassing 193 UN m
   - [UN Membership](https://www.un.org/en/about-us/member-states)
 * **Non-Member Observer State of the United Nations:** refers to an entity recognized by the United Nations General Assembly that has observer status, granting it certain privileges and participation rights in UN activities, but without full membership or voting rights in the General Assembly.
   - [Palestine](https://documents.un.org/doc/undoc/gen/n12/479/73/pdf/n1247973.pdf)
-* **Regions without Internationally Recognized Sovereignty:** refer to territories or regions that declare themselves as independent or autonomous but lack widespread recognition as sovereign states under international law or by the global community, including the United Nations.
-  * Territories: Western Sahara,South Ossetia,Transnistria,Northern Cyprus,Kosovo,Western Sahara,Abkhazia,Catalonia,Transnistria,Nagorno-Karabakh,Artsakh Republic
-  * Islands: Abah Island,Kuril Islands,Malvinas Islands,Falkland Islands,Hanish Islands,Palmyra Atoll,Spratly Islands,Barbuda Islands,Chafarinas Islands,Saint Helena Islands,Seto Islands,Aguinas Islands,Kirkira Islands,Gulf of Gdańsk Islands,Kuril Islands,Falkland Islands,Spratly Islands,Paracel Islands
+* **Territories and Islands without Internationally Recognized Sovereignty:** refer to territories and islands that declare themselves as independent or autonomous but lack widespread recognition as sovereign states under international law or by the global community, including the United Nations.
 <br/><br/>
+
+<table>
+  <tr>
+    <th>Geographic division</th>
+    <th>Membership</th>
+  </tr>
+  <tr>
+    <td>UN Membership</td>
+    <td>Afghanistan, Albania, Algeria, Andorra, Angola, Antigua and Barbuda, Argentina, Armenia, Australia, Austria, Azerbaijan, Bahamas, Bahrain, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bhutan, Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Brunei Darussalam, Bulgaria, Burkina Faso, Burundi, Cabo Verde, Cambodia, Cameroon, Canada, Central African Republic, Chad, Chile, China, Colombia, Comoros, Congo, Congo-Kinshasa, Costa Rica, Croatia, Cuba, Cyprus, Czech Republic, Democratic People's Republic of Korea, Denmark, Djibouti, Dominica, Dominican Republic, Ecuador, Egypt, El Salvador, Equatorial Guinea, Eritrea, Estonia, Eswatini, Ethiopia, Fiji, Finland, France, Gabon, Gambia, Georgia, Germany, Ghana, Greece, Grenada, Guatemala, Guinea, Guinea-Bissau, Guyana, Haiti, Honduras, Hungary, Iceland, India, Indonesia, Iran, Iraq, Ireland, Israel, Italy, Jamaica, Japan, Jordan, Kazakhstan, Kenya, Kiribati, Kuwait, Kyrgyzstan, Lao People's Democratic Republic, Latvia, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, Madagascar, Malawi, Malaysia, Maldives, Mali, Malta, Marshall Islands, Mauritania, Mauritius, Mexico, Micronesia, Moldova, Monaco, Mongolia, Montenegro, Morocco, Mozambique, Myanmar, Namibia, Nauru, Nepal, Netherlands, New Zealand, Nicaragua, Niger, Nigeria, North Macedonia, Norway, Oman, Pakistan, Palau, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Qatar, Romania, Russian Federation, Rwanda, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, San Marino, Sao Tome and Principe, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, Solomon Islands, Somalia, South Africa, South Sudan, Spain, Sri Lanka, Sudan, Suriname, Sweden, Switzerland, Syrian Arab Republic, Tajikistan, Thailand, Timor-Leste, Togo, Tonga, Trinidad and Tobago, Tunisia, Turkey, Turkmenistan, Tuvalu, Uganda, Ukraine, United Arab Emirates, United Kingdom of Great Britain and Northern Ireland, United Republic of Tanzania, United States of America, Uruguay, Uzbekistan, Vanuatu, Venezuela, Viet Nam, Yemen, Zambia, Zimbabwe</td>
+  </tr>
+  <tr>
+    <td>Non-Member Observer State</td>
+    <td>Palestine</td>
+  </tr>
+  <tr>
+    <td>Territories</td>
+    <td>Western Sahara,South Ossetia,Transnistria,Northern Cyprus,Kosovo,Western Sahara,Abkhazia,Catalonia,Transnistria,Nagorno-Karabakh,Artsakh Republic</td>
+  </tr>
+  <tr>
+    <td>Islands</td>
+    <td>Abah Island,Kuril Islands,Malvinas Islands,Falkland Islands,Hanish Islands,Palmyra Atoll,Spratly Islands,Barbuda Islands,Chafarinas Islands,Saint Helena Islands,Seto Islands,Aguinas Islands,Kirkira Islands,Gulf of Gdańsk Islands,Kuril Islands,Falkland Islands,Spratly Islands,Paracel Islands</td>
+  </tr>
+</table>
 
 ## Data mining
 Leveraging data mining techniques on the GBCD corpus enables researchers to map and characterize the brain circulation patterns of skilled professionals across different countries. Further more, researchers can gain a deeper understanding of the complex dynamics underlying brain circulation and make informed decisions to address the challenges.  This study highlights the potential of data-driven approaches to inform policy and promote more effective brain circulation strategies.
