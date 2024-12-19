@@ -10,6 +10,7 @@ The GBCD corpus establishes a novel benchmark for examining spatiotemporal brain
 
 ## Corpus
 The GBCD corpus is a comprehensive dataset comprising 2,904,663,710 tokens, structured into two distinct corpora: diachronic and synchronic. The corpus encompasses 1,764,234 entries related to brain circulation features, with the diachronic corpus accounting for 1,311,616 entries that span a 24-year period (2000-2024). Notably, the diachronic corpus is continuously updated in real-time, ensuring the data remains current and relevant for both real-time and ex-post analyses of brain circulation. In contrast, the synchronic corpus contains 452,618 entries, deliberately excluding timestamp features to facilitate synchronic research.
+
 <table>
   <tr>
     <th>Version</th>
@@ -24,37 +25,38 @@ The GBCD corpus is a comprehensive dataset comprising 2,904,663,710 tokens, stru
     <td rowspan="2">V1.0</td>
     <td rowspan="2">2024-8-29</td>
     <td>Diachronic corpus</td>
-    <td>0.9459</td>
-    <td>0.9269</td>
-    <td>0.9279</td>
-    <td>0.9259</td>
+    <td>623,072</td>
+    <td>1,134,253,949</td>
+    <td>422,954,074</td>   
+    <td>16,914,973</td>   
   </tr>
   <tr>
     <td>Synchronic corpus</td>
-    <td>0.9885</td>
-    <td>0.9844</td>
-    <td>0.9901</td>
-    <td>0.9789</td>
+    <td>348,508</td>
+    <td>606,015,828</td>
+    <td>158,891,392</td>
+    <td>11,250,558</td>
   </tr>
 
   <tr>
     <td rowspan="2">V2.0</td>
     <td rowspan="2">2024-12-16</td>
     <td>Diachronic corpus</td>
-    <td>1,132,674</td>
+    <td>1,111,644</td>
     <td>2,087,930,788</td>
-    <td>422,954,074</td>   
-    <td>36,914,973</td>   
+    <td>707,785,647</td>   
+    <td>38,900,418</td>   
+
+    
   </tr>
   <tr>
     <td>Synchronic corpus</td>
-    <td>140,952</td>
+    <td>452,618</td>
     <td>816,732,922</td>
-    <td>158,891,392</td>
-    <td>12,250,558</td>
+    <td>328,842,410</td>
+    <td>19,253,646</td>
   </tr>
 </table>
-
 
 
 ## Data record
