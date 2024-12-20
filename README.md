@@ -130,30 +130,10 @@ The GBCD corpus spans 223 countrie/regions worldwide, encompassing 193 UN member
 * **Non-Member Observer State of the United Nations:** refers to an entity recognized by the United Nations General Assembly that has observer status, granting it certain privileges and participation rights in UN activities, but without full membership or voting rights in the General Assembly.
   - [Palestine](https://documents.un.org/doc/undoc/gen/n12/479/73/pdf/n1247973.pdf)
 * **Territories and Islands without Internationally Recognized Sovereignty:** refer to territories and islands that declare themselves as independent or autonomous but lack widespread recognition as sovereign states under international law or by the global community, including the United Nations.
+  - [Territories](https://github.com/Computational-social-science/GBCD/blob/main/Supplementary%20information/Geographic%20entity%20criteria.xlsx)
+  - [Islands](https://github.com/Computational-social-science/GBCD/blob/main/Supplementary%20information/Geographic%20entity%20criteria.xlsx)
 <br/><br/>
 
-<table>
-  <tr>
-    <th>Geographic Division</th>
-    <th>Membership</th>
-  </tr>
-  <tr>
-    <td>UN Membership</td>
-    <td>Afghanistan, Albania, Algeria, Andorra, Angola, Antigua and Barbuda, Argentina, Armenia, Australia, Austria, Azerbaijan, Bahamas, Bahrain, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bhutan, Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Brunei Darussalam, Bulgaria, Burkina Faso, Burundi, Cabo Verde, Cambodia, Cameroon, Canada, Central African Republic, Chad, Chile, China, Colombia, Comoros, Congo, Congo-Kinshasa, Costa Rica, Croatia, Cuba, Cyprus, Czech Republic, Democratic People's Republic of Korea, Denmark, Djibouti, Dominica, Dominican Republic, Ecuador, Egypt, El Salvador, Equatorial Guinea, Eritrea, Estonia, Eswatini, Ethiopia, Fiji, Finland, France, Gabon, Gambia, Georgia, Germany, Ghana, Greece, Grenada, Guatemala, Guinea, Guinea-Bissau, Guyana, Haiti, Honduras, Hungary, Iceland, India, Indonesia, Iran, Iraq, Ireland, Israel, Italy, Jamaica, Japan, Jordan, Kazakhstan, Kenya, Kiribati, Kuwait, Kyrgyzstan, Lao People's Democratic Republic, Latvia, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, Madagascar, Malawi, Malaysia, Maldives, Mali, Malta, Marshall Islands, Mauritania, Mauritius, Mexico, Micronesia, Moldova, Monaco, Mongolia, Montenegro, Morocco, Mozambique, Myanmar, Namibia, Nauru, Nepal, Netherlands, New Zealand, Nicaragua, Niger, Nigeria, North Macedonia, Norway, Oman, Pakistan, Palau, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Qatar, Romania, Russian Federation, Rwanda, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, San Marino, Sao Tome and Principe, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, Solomon Islands, Somalia, South Africa, South Sudan, Spain, Sri Lanka, Sudan, Suriname, Sweden, Switzerland, Syrian Arab Republic, Tajikistan, Thailand, Timor-Leste, Togo, Tonga, Trinidad and Tobago, Tunisia, Turkey, Turkmenistan, Tuvalu, Uganda, Ukraine, United Arab Emirates, United Kingdom of Great Britain and Northern Ireland, United Republic of Tanzania, United States of America, Uruguay, Uzbekistan, Vanuatu, Venezuela, Viet Nam, Yemen, Zambia, Zimbabwe</td>
-  </tr>
-  <tr>
-    <td>Non-Member Observer State</td>
-    <td>Palestine</td>
-  </tr>
-  <tr>
-    <td>Territories</td>
-    <td>Western Sahara,South Ossetia,Transnistria,Northern Cyprus,Kosovo,Western Sahara,Abkhazia,Catalonia,Transnistria,Nagorno-Karabakh,Artsakh Republic</td>
-  </tr>
-  <tr>
-    <td>Islands</td>
-    <td>Abah Island,Kuril Islands,Malvinas Islands,Falkland Islands,Hanish Islands,Palmyra Atoll,Spratly Islands,Barbuda Islands,Chafarinas Islands,Saint Helena Islands,Seto Islands,Aguinas Islands,Kirkira Islands,Gulf of Gdańsk Islands,Kuril Islands,Falkland Islands,Spratly Islands,Paracel Islands</td>
-  </tr>
-</table>
 
 ## Data mining
 Leveraging data mining techniques on the GBCD corpus enables researchers to map and characterize the brain circulation patterns of skilled professionals across different countries. Further more, researchers can gain a deeper understanding of the complex dynamics underlying brain circulation and make informed decisions to address the challenges.  This study highlights the potential of data-driven approaches to inform policy and promote more effective brain circulation strategies.
