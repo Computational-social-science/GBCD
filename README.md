@@ -122,6 +122,14 @@ The corpus captures key attributes relevant to brain circulation, including orig
 </table>
 
 
+####Regions without internationally recognized sovereignty:
+These regions do not possess formal recognition or authority under international law, meaning they lack official ISO codes and CountryCodes. As a result, they are not represented in global standards used for identifying sovereign states.
+
+####Geospatial representation:
+To delineate the geographic boundaries of such regions, we rely on Polygon-type geospatial data. This approach allows for the precise definition of the spatial extent of these areas, even in the absence of formal sovereignty. The polygon format enables the mapping of complex territorial claims or disputed regions, capturing their exact geographic features.
+
+####Structured information for countries/regions:
+Detailed and structured data related to these regions, as well as fully recognized countries, can be accessed in the [data section](https://github.com/Computational-social-science/GBCD/blob/main/Supplementary%20information/Countries%26Regions%20Information.xlsx). This repository includes comprehensive information about their geographic, political, and other relevant attributes, offering an in-depth look at the regions' boundaries, history, and territorial disputes.
 
 ### Geographic entity criteria
 The GBCD corpus spans 223 countrie/regions worldwide, encompassing 193 UN member states, one observer state, and 29 non-sovereign island territories.Our national geographic divisions adhere to methods endorsed by the United Nations Statistics Division for international statistical data collection, ensuring consistency and compatibility with global standards.
