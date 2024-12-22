@@ -137,7 +137,7 @@ The GBCD corpus spans 223 countrie/regions worldwide, encompassing 193 UN member
 * **Member State of the United Nations:** refers to a sovereign country that has been officially admitted to the United Nations (UN) and holds full membership status. Member States enjoy voting rights, participate in all UN activities, and are bound by the principles outlined in the UN Charter.
   - [UN Membership](https://www.un.org/en/about-us/member-states)
 * **Non-Member Observer State of the United Nations:** refers to an entity recognized by the United Nations General Assembly that has observer status, granting it certain privileges and participation rights in UN activities, but without full membership or voting rights in the General Assembly.
-  - [Palestine](https://documents.un.org/doc/undoc/gen/n12/479/73/pdf/n1247973.pdf)
+  - [Palestine](https://documents.un.org/doc/undoc/gen/n12/479/74/pdf/n1247974.pdf)
 * **Territories and Islands without Internationally Recognized Sovereignty:** refer to territories and islands that declare themselves as independent or autonomous but lack widespread recognition as sovereign states under international law or by the global community, including the United Nations.
   - [Territories](https://github.com/Computational-social-science/GBCD/blob/main/Supplementary%20information/Geographic%20entity%20criteria.xlsx)
   - [Islands](https://github.com/Computational-social-science/GBCD/blob/main/Supplementary%20information/Geographic%20entity%20criteria.xlsx)
